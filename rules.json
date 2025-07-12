@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "block"
+    },
+    "condition": {
+      "urlFilter": "||tpc.googlesyndication.com",
+      "resourceTypes": ["image", "sub_frame", "script", "xmlhttprequest"]
+    }
+  }
+]

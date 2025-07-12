@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Ad Remover",
+  "version": "1.0",
+  "description": "Automatically removes YouTube engagement ad panels.",
+  "permissions": ["scripting", "declarativeNetRequest"],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}
