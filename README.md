@@ -1,6 +1,6 @@
 # YouTube Ad Remover Extension
 
-This Chrome extension removes the "engagement panel ads" from YouTube using a content script.
+This Chrome extension removes most of ads in YouTube using a content script.
 
 ## How to Use
 
@@ -8,4 +8,4 @@ This Chrome extension removes the "engagement panel ads" from YouTube using a co
 2. Open Chrome and go to `chrome://extensions/`.
 3. Enable **Developer Mode**.
 4. Click **"Load unpacked"** and select the `yt-ad-remover` folder.
-5. Visit YouTube — the ad panel should be gone automatically!
+5. Visit YouTube — SOME ads should be gone automatically!
